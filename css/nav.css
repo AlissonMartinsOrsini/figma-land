@@ -1,0 +1,42 @@
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    display: flex;
+    height: 156px;
+    align-items: center;
+    max-width: 1210px;
+    margin: auto;
+    justify-content: space-between;
+
+    
+
+}
+.menu .menu__group{
+    display: flex;
+    align-items: center;
+}
+.menu .group__links{
+    display: flex;
+
+}
+
+.group__logo{
+    margin-left: 55px;
+}
+.menu .menu__social-media img {
+    margin-left: 24px;
+}
+
+.menu .group__links .links__item .item__link{
+
+    color: #ffffff;
+    font-size: 16px;
+    margin-left: 41px;  
+    text-decoration: none;
+
+    
+}
