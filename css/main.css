@@ -1,0 +1,36 @@
+.conteudo {}
+
+.conteudo .conteudo__features {
+
+    text-align: center;
+    margin-top: 100px;
+}
+
+.conteudo .conteudo__features .features__tittle {
+
+    font-size: 48px;
+    color: #252B42;
+    margin-bottom: 27px;
+
+}
+
+.conteudo .conteudo__features .features__description {
+    font-size: 28px;
+    color: #374754;
+    max-width: 100%;
+    width: 523px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+
+}
+
+.conteudo .conteudo__features .features__cards{
+    
+    display: flex;
+    margin-bottom: 132px;
+    width: 869px;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 132px;
+    
+}

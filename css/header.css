@@ -1,27 +1,32 @@
 .cabecalho{
-    position: absolute;
-    left: 0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    background-image: url('../img/banner.png') ;
-    background-repeat: no-repeat;
-    background-size: cover ;
+    height: 100vh;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 
 }
+.cabecalho .cabecalho__banner{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+
+}
+.cabecalho .cabecalho__banner .banner__img {
+    width: 100%;
+}
 
 .cabecalho__group{
     max-width: 826px;
     text-align: center;
+    z-index: 1;
 }
 
 .group__title{
     color: #ffffff;
-    font-weight: bold;
+    font-weight: bolder;
     font-size: 74px;
     font-family: Arial, Helvetica, sans-serif;
     margin-bottom: 20px;
