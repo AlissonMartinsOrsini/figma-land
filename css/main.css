@@ -1,7 +1,3 @@
-.conteudo__features {
-  margin-bottom: 340px;
-}
-
 .conteudo .conteudo__features {
 
   text-align: center;
@@ -64,7 +60,6 @@
 
 .newsletter {
   margin-top: 100px;
-  margin-bottom: 182px;
 }
 
 .newsletter .newsletter__firts-box {
@@ -113,8 +108,129 @@
 }
 
 
+.newsletter__second-box {
 
-.partnes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 100px;
+  width: 1200px;
+  margin: auto;
+  max-width: 100%;
+  margin-top: 100px;
+
+}
+.newsletter__second-box .second-box__rigth {
+
+  text-align: left;
+  margin-left: 115px;
+
+}
+
+.newsletter__second-box .second-box__rigth .rigth__subtitle {
+  color:  #252B42;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+}
+
+.newsletter__second-box .second-box__rigth .rigth__title {
+  color:  #252B42;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 55px;
+  letter-spacing: 0.2px;
+  display: block;
+  margin-top: 17px;
+}
+
+.newsletter__second-box .second-box__rigth .rigth__description {
+  color:  #252B42;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+  margin-top: 35px;
+  display: block;
+}
+
+.newsletter__second-box .second-box__rigth .rigth__label {
+  color:  #252B42;
+  font-size: 18px;
+  font-weight: 100;
+  line-height: 28px;
+  letter-spacing: 0.1px;
+
+}
+
+.newsletter__second-box .second-box__rigth .second-box__formulario{
+  display: flex;
+  margin-top: 55px;
+ 
+}
+.newsletter__second-box .second-box__rigth .formulario__email{
+  height: 54px;
+  margin-right: 12px;
+  width: 273px;
+  max-width: 100%;
+  border: solid 1px ;
+  border-radius: 39px;
+  background-color: #f4f4f4;
+  padding-left: 39px;
+  color: #18171d;
+  outline: none;
+}
+.newsletter__second-box .second-box__rigth .formulario__button{
+  width: 172px;
+  max-width: 100%;
+  border-radius: 35px;
+  background-color: #2091f9;
+  font-size: 20px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+
+
+
+.newsletter__second-box .second-box__left {
+
+  display: flex;
+  width: 855px;
+  flex-direction: row;
+  align-items: center;
+  height: 638px;
+  justify-content: space-between;
+
+}
+
+.newsletter__second-box .second-box__left img {
+  width: 677px;
+  height: 514px;
+  align-items: flex-end;
+}
+
+
+.newsletter__second-box .second-box__rigth {
+
+  /*margin-left: 63px;
+  margin-right: 63px;*/
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.partnes {
   display: flex;
   flex-direction: column;
   text-align: center;
