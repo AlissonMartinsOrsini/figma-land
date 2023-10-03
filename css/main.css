@@ -2,6 +2,7 @@
 
   text-align: center;
   margin-top: 100px;
+
 }
 
 .conteudo .conteudo__features .features__tittle {
@@ -13,6 +14,7 @@
 }
 
 .conteudo .conteudo__features .features__description {
+
   font-size: 28px;
   color: #374754;
   max-width: 100%;
@@ -34,6 +36,7 @@
 }
 
 .conteudo .conteudo__features .features__cards .cards__card {
+
   width: 194px;
   max-width: 100%;
   height: 56px;
@@ -49,7 +52,6 @@
   height: 100px;
   margin-top: 20px;
   color: #374754;
-
   font-weight: 400;
   line-height: 25px;
   /* 138.889% */
@@ -69,8 +71,8 @@
 
 }
 
-
 .conteudo .conteudo__features .features__video {
+
   position: relative;
   width: 1177px;
   height: 658px;
@@ -81,6 +83,7 @@
 }
 
 .conteudo .conteudo__features .features__video iframe {
+
   position: absolute;
   top: 0;
   left: 0;
@@ -94,11 +97,14 @@
 
 
 .newsletter {
+
   margin-top: 100px;
+
 }
 
 .newsletter .newsletter__firts-box {
   display: flex;
+
   justify-content: center;
   align-items: center;
   width: 1200px;
@@ -127,6 +133,7 @@
   font-size: 28px;
   color: #252B42;
   margin-bottom: 70px;
+
 }
 
 .newsletter .newsletter__firts-box .first-box__left__button {
@@ -140,6 +147,7 @@
   display: inline-block;
   border-radius: 200px;
   text-align: center;
+
 }
 
 
@@ -169,9 +177,11 @@
   font-weight: 700;
   line-height: 28px;
   letter-spacing: 0.1px;
+
 }
 
 .newsletter__second-box .second-box__rigth .rigth__title {
+
   color: #252B42;
   font-size: 48px;
   font-weight: 400;
@@ -179,9 +189,11 @@
   letter-spacing: 0.2px;
   display: block;
   margin-top: 17px;
+
 }
 
 .newsletter__second-box .second-box__rigth .rigth__description {
+
   color: #252B42;
   font-size: 20px;
   font-weight: 700;
@@ -189,9 +201,11 @@
   letter-spacing: 0.1px;
   margin-top: 35px;
   display: block;
+
 }
 
 .newsletter__second-box .second-box__rigth .rigth__label {
+
   color: #252B42;
   font-size: 18px;
   font-weight: 100;
@@ -201,12 +215,14 @@
 }
 
 .newsletter__second-box .second-box__rigth .second-box__formulario {
+
   display: flex;
   margin-top: 55px;
 
 }
 
 .newsletter__second-box .second-box__rigth .formulario__email {
+
   height: 54px;
   margin-right: 12px;
   width: 273px;
@@ -217,9 +233,11 @@
   padding-left: 39px;
   color: #18171d;
   outline: none;
+
 }
 
 .newsletter__second-box .second-box__rigth .formulario__button {
+
   width: 172px;
   max-width: 100%;
   border-radius: 35px;
@@ -243,21 +261,24 @@
   align-items: center;
   height: 638px;
   margin-right: 113px;
+
 }
 
 .newsletter__second-box .second-box__left .left__img {
 
   width: 677px;
   height: 514px;
+
 }
 
-
 .partnes {
+
   display: flex;
   flex-direction: column;
   text-align: center;
   margin-top: 100px;
   margin-bottom: 100px;
+
 }
 
 .partnes .partnes__title {
@@ -277,14 +298,17 @@
   text-align: center;
   font-size: 28px;
   letter-spacing: 0.1px;
+
 }
 
 .partnes .partnes__icons {
+
   width: 70%;
   margin-top: 80px;
   display: flex;
   flex-wrap: wrap;
   margin: auto;
+
 }
 
 .partnes__icons .icons__icon {
@@ -325,8 +349,8 @@
 
 }
 
-
 .testmonials {
+
   width: 1439px;
   max-width: 100%;
   height: 810px;
@@ -344,7 +368,6 @@
   font-weight: 400;
   margin-bottom: 80px;
   margin-top: 100px;
-
 
 }
 
@@ -364,6 +387,7 @@
 }
 
 .testmonials__criador .criador__foto img {
+
   width: 50px;
   height: 50px;
   border-radius: 50px;
@@ -373,14 +397,15 @@
 }
 
 .testmonials .testmonials__criador {
+
   display: flex;
   flex-direction: row;
 
 }
 
 .testmonials__criador .criador__subtitle {
-  text-align: left;
 
+  text-align: left;
 
 }
 
@@ -403,6 +428,7 @@
 }
 
 .criador__button {
+
   width: 276px;
   height: 60px;
   display: flex;
@@ -421,8 +447,6 @@
 
 }
 
-
-
 .pricing {
 
   background-color: #252B42;
@@ -431,7 +455,7 @@
   height: 1155px;
   padding-top: 100px;
   padding-bottom: 100px;
-
+  margin-bottom: 150px;
 
 }
 
@@ -442,6 +466,7 @@
   font-size: 48px;
   font-weight: 400;
   letter-spacing: 0.2px;
+
 }
 
 .pricing .pricing__subtitle {
@@ -469,7 +494,6 @@
   align-items: center;
 }
 
-
 .pricing .pricing__planos .planos__esquerda {
 
   width: 335px;
@@ -480,6 +504,7 @@
 }
 
 .pricing .pricing__planos .planos__esquerda {
+
   display: flex;
   width: 335px;
   padding: 40px;
@@ -538,11 +563,9 @@
   display: flex;
   align-items: center;
 
-
 }
 
 .pricing .pricing__planos .planos__esquerda .esquerda__price .price_cifrao .cifrao__h1 {
-
 
   width: 13px;
   height: 28px;
@@ -573,8 +596,8 @@
   height: 240px;
   text-align: center;
   margin-bottom: 30px;
-}
 
+}
 
 .pricing .pricing__planos .planos__esquerda .esquerda__info .info__plan {
 
@@ -590,8 +613,8 @@
   letter-spacing: 0.2px;
 }
 
-
 .pricing .pricing__planos .planos__esquerda .esquerda__button {
+
   width: 255px;
   height: 56px;
   max-width: 100%;
@@ -608,25 +631,20 @@
 
 }
 
-
-
 .pricing .pricing__planos .planos__meio {
 
   width: 335px;
   height: 693px;
   max-width: 100%;
   background-color: #2091F9;
-
   display: flex;
   width: 335px;
   padding: 83px 40px;
   flex-direction: column;
   align-items: center;
-
   border-radius: 10px;
   border: 1px solid #DEDEDE;
   box-shadow: 0px 13px 19px 0px rgba(0, 0, 0, 0.07);
-
 
 }
 
@@ -752,7 +770,6 @@
 
 .pricing .pricing__planos .planos__direita .direita__title {
 
-
   width: 104px;
   max-width: 100%;
   height: 28px;
@@ -810,7 +827,6 @@
   font-weight: 700;
   letter-spacing: 0.1px;
 
-
 }
 
 .pricing .pricing__planos .planos__direita .direita__price .price__cifrao .cifrao__h2 {
@@ -843,7 +859,6 @@
   letter-spacing: 0.2px;
 }
 
-
 .pricing .pricing__planos .planos__direita .direita__button {
 
   width: 255px;
@@ -857,4 +872,124 @@
   background: #2091F9;
   text-decoration: none;
   color: #FFF;
+}
+
+.contact {
+
+  display: flex;
+  width: 1440px;
+  max-width: 100%;
+  padding: 52px 0px;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  background-color: #FFFFFF;
+
+}
+
+.contact .contact__title {
+
+  width: 252px;
+  max-width: 100%;
+  margin: auto;
+  height: 55px;
+  color: #252B42;
+  text-align: center;
+  font-size: 48px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 27px;
+
+}
+
+.contact .contact__subtitle {
+
+  width: 532px;
+  max-width: 100%;
+  margin: auto;
+  height: 80px;
+  color: #374754;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+  margin-bottom: 50px;
+
+}
+
+.contact .contact__left-box {
+
+  width: 453px;
+  max-width: 100%;
+  height: 669px;
+  display: flex;
+  padding: 52px 50px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 45px;
+  align-self: stretch;
+  border-radius: 20px;
+  border: 1px solid #DDD;
+  background: #FFF;
+  margin: auto;
+  align-items: center;
+
+}
+
+.contact .contact__left-box .left-box__title {
+
+  width: 110px;
+  max-width: 100%;
+  height: 28px;
+  text-align: center;
+  color: #252B42;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+
+}
+
+.contact .contact__left-box .left-box__name {
+
+  width: 353px;
+  max-width: 100%;
+  height: 54px;
+  border-radius: 39px;
+  border: 1px solid #E8E8E8;
+  background: #F5F5F5;
+  display: flex;
+  padding: 19px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.contact .contact__left-box .left-box__email {
+
+  width: 353px;
+  max-width: 100%;
+  height: 54px;
+  border-radius: 39px;
+  border: 1px solid #E8E8E8;
+  background: #F5F5F5;
+  display: flex;
+  padding: 19px 20px;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: stretch;
+}
+
+.contact .contact__left-box .left-box__message {
+
+  width: 353px;
+  max-width: 100%;
+  height: 193px;
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  border: 1px solid #E8E8E8;
+  background: #F5F5F5;
+  display: flex;  
+  align-self: stretch;
+  align-items: flex-start;
 }
