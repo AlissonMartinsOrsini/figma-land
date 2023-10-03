@@ -673,6 +673,7 @@
   font-size: 74px;
   font-weight: 700;
   letter-spacing: 0.2px;
+  align-items: center;
 
 }
 
@@ -796,7 +797,7 @@
   font-size: 74px;
   font-weight: 700;
   letter-spacing: 0.2px;
-
+  text-align: center;
 }
 
 .pricing .pricing__planos .planos__direita .direita__price .price__cifrao .cifrao__h1 {
@@ -812,6 +813,48 @@
 
 }
 
-.pricing .pricing__planos .planos__direita .direita__price .price__cifrao .cifrao__h2{
-  
+.pricing .pricing__planos .planos__direita .direita__price .price__cifrao .cifrao__h2 {
+
+  width: 78px;
+  height: 23px;
+  max-width: 100%;
+  color: #374754;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.1px;
+}
+
+.pricing .pricing__planos .planos__direita .direita__info {
+  margin-bottom: 30px;
+
+}
+
+.pricing .pricing__planos .planos__direita .direita__info .info__plan {
+
+  width: 129px;
+  max-width: 100%;
+  height: 48px;
+  text-align: center;
+  padding: 10px;
+  margin: auto;
+  color: #252B42;
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.2px;
+}
+
+
+.pricing .pricing__planos .planos__direita .direita__button {
+
+  width: 255px;
+  height: 56px;
+  max-width: 100%;
+  display: flex;
+  padding: 18px 38px;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 35px;
+  background: #2091F9;
+  text-decoration: none;
+  color: #FFF;
 }
