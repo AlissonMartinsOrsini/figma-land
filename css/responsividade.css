@@ -1,4 +1,72 @@
-@media only screen and (max-width: 500px){
+@media only screen and (max-width: 800px) {
 
-    
+
+    /* NAV */
+    .menu {
+        width: 418px;
+        height: 112px;
+        max-width: 100%;
+        padding: 17px;
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 2;
+        display: flex;
+    }
+
+    .menu .menu__group #group__menu {
+
+        width: 40px;
+        height: 32px;
+        max-width: 100%;
+        display: none;
+        color: #ffffff;
+        display: block;
+        align-items: end;
+        cursor: pointer;
+        font-size: 40px;
+    }
+
+    .menu .menu__group .group__logo {
+
+        width: 206px;
+        height: 78px;
+        max-width: 100%;
+        padding: 10px;
+        display: flex;
+        align-items: flex-start;
+    }
+
+    .menu .group__links {
+
+        display: none;
+
+    }
+
+    .menu .menu__social-media img {
+        display: none;
+    }
+
+
+    .menu .menu__social-media {
+        display: none;
+    }
+
+
+    /* cabecalho */
+
+    .cabecalho .cabecalho__banner {
+
+        width: 418px;
+        height: 750px;
+        max-width: 100%;
+
+    }
+
+
+
+
+
 }

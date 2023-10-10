@@ -1,4 +1,11 @@
 
+.menu .menu__group #group__menu{
+
+    display: block;
+    color: #ffffff;
+    display: none;
+}
+
 .menu{
     position: absolute;
     top: 0;
