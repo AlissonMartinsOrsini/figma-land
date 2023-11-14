@@ -7,26 +7,35 @@
         height: 112px;
         max-width: 100%;
         padding: 17px;
-
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         z-index: 2;
-        display: flex;
+
     }
 
+    .menu .menu__group {
+        width: 418px;
+        height: 112px;
+        max-width: 100%;
+        padding: 17px;
+
+    }
+    .menu .menu__group .group__links{
+        display: none;
+    }
     .menu .menu__group #group__menu {
 
         width: 40px;
         height: 32px;
         max-width: 100%;
-        display: none;
         color: #ffffff;
-        display: block;
         align-items: end;
         cursor: pointer;
         font-size: 40px;
+        display: flex;
+        align-items: end;
     }
 
     .menu .menu__group .group__logo {
@@ -57,16 +66,148 @@
 
     /* cabecalho */
 
-    .cabecalho .cabecalho__banner {
+    .cabecalho .cabecalho__banner .banner__img {
 
-        width: 418px;
+        width: 100%;
         height: 750px;
         max-width: 100%;
 
     }
 
 
+    .cabecalho .cabecalho__group .group__title {
+        width: 353px;
+        height: 185px;
+        max-width: 100%;
+        margin-top: 50;
+        padding: 10px;
 
 
+
+        color: #FFF;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+    }
+
+    .cabecalho .cabecalho__group .group__subtitle {
+        width: 265px;
+        height: 80px;
+        max-width: 100%;
+        margin-top: 7;
+        padding: 10px;
+
+        color: #FFF;
+
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        margin: 0 auto;
+
+    }
+
+    .cabecalho .cabecalho__group .group__button {
+
+
+        background-color: #2091f9;
+        padding: 16px;
+        color: #ffffff;
+        text-decoration: none;
+        width: 236px;
+        font-size: 20px;
+        display: inline-block;
+        border-radius: 200px;
+        text-align: center;
+        margin-top: 59px;
+    }
+
+
+    /* main*/
+
+    .conteudo .conteudo__features {
+        width: 418px;
+        height: 1595px;
+        max-width: 100%;
+        display: flex;
+        padding: 80px 0px;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        align-self: stretch;
+    }
+
+    .conteudo .conteudo__features .features__tittle {
+        width: 194px;
+        height: 55px;
+        max-width: 100%;
+
+        color: #252B42;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 7px;
+    }
+
+    .conteudo .conteudo__features .features__description {
+        display: none;
+
+    }
+
+    .conteudo .conteudo__features .features__description__responsividade {
+
+
+
+        width: 285px;
+        height: 100px;
+        max-width: 100%;
+
+        display: flex;
+        padding: 10px;
+        align-items: center;
+        gap: 10px;
+
+        color: #374754;
+        text-align: center;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        margin-bottom: 50px;
+    }
+
+    .conteudo .conteudo__features.features__video__responsividade {
+        width: 385.887px;
+        height: 215.766px;
+        position: relative;
+        overflow: hidden;
+        border-radius: 20px;
+        /* Adicione um raio de borda para arredondar as bordas */
+
+    }
+
+    .conteudo .conteudo__features .features__video__responsividade iframe {
+
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        /* Remova qualquer borda padrão do iframe */
+    }
+
+    .conteudo .conteudo__features .features__video {
+        display: none;
+    }
+
+    .conteudo .conteudo__features .features__video iframe {
+
+        display: none;
+    }
 
 }
