@@ -76,7 +76,7 @@
 
 }
 
-.conteudo .conteudo__features.features__video__responsividade {
+.conteudo .conteudo__features .features__video__responsividade {
   display: none;
 }
 
@@ -106,6 +106,8 @@
   border: 0;
   /* Remova qualquer borda padrão do iframe */
 }
+
+
 
 /* newsletter*/
 
@@ -149,7 +151,10 @@
   margin-bottom: 70px;
 
 }
+.newsletter .newsletter__firts-box .first-box__left__description_responsividade{
+  display: none;
 
+ }
 .newsletter .newsletter__firts-box .first-box__left__button {
 
   background-color: #2091f9;
@@ -282,6 +287,7 @@
 
   width: 677px;
   height: 514px;
+  max-width: 100%;
 
 }
 
