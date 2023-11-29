@@ -1,6 +1,5 @@
 .rodape {
     width: 100%;
-    height: 567px;
     max-width: 100%;
     background-color: #252B42;
     display: flex;
@@ -17,7 +16,7 @@
 .rodape .rodape__conteudo .conteudo__conteudo {
     width: 991px;
     max-width: 100%;
-    height: 267px;
+
     display: flex;
     align-items: flex-start;
     margin: auto;
