@@ -509,6 +509,9 @@
   margin-top: 27px;
   margin-bottom: 80px;
 }
+.pricing .pricing__subtitle__responsividade{
+  display: none;
+}
 
 .pricing .pricing__planos {
 

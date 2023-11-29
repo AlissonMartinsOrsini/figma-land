@@ -13,8 +13,7 @@
         gap: 47px;
         align-self: stretch;
 
-        /*  teste de vazamento*/
-        background-color: black;
+
     }
 
     .menu .menu__group {
@@ -71,11 +70,7 @@
 
 
     /* header */
-    .cabecalho {
 
-        /*  teste de vazamento*/
-        background-color: black;
-    }
 
     .cabecalho .cabecalho__banner .banner__img {
 
@@ -143,8 +138,7 @@
 
     .conteudo {
         margin: 0 auto;
-        /*  teste de vazamento*/
-        background-color: black;
+
     }
 
     .conteudo .conteudo__features {
@@ -245,7 +239,7 @@
         flex-direction: column;
         gap: 20px;
 
-        background-color: #ffffff;
+
 
     }
 
@@ -278,13 +272,11 @@
     .newsletter {
         width: 418px;
         max-width: 100%;
-    
+
         display: flex;
         flex-direction: column;
         margin-top: 0px;
 
-
-        background-color: green;
     }
 
     .newsletter .newsletter__firts-box {
@@ -352,9 +344,6 @@
         display: flex;
         flex-direction: column;
 
-
-
-        background-color: aqua;
     }
 
     .newsletter__second-box .second-box__left .left__img {
@@ -451,16 +440,10 @@
     .partnes {
         width: 378px;
         max-width: 100%;
-        
         text-align: center;
-
         margin-bottom: 100px;
-
         display: flex;
         flex-direction: column;
-
-
-        background-color: #FFF;
 
     }
 
@@ -476,7 +459,7 @@
         flex-wrap: wrap;
         margin: auto;
         gap: 10px;
-        
+
     }
 
 
@@ -486,7 +469,7 @@
         border: 1px solid #d8d8d8;
         width: 25%;
         max-width: 100%;
-        
+
     }
 
     .partnes__icons .icons__icon .icon__p {
@@ -501,13 +484,151 @@
     }
 
 
-
+    /* testmonials */
 
     .testmonials {
 
-        margin-top: 150px;
+
+        align-items: center;
+
+
+        width: 415px;
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
     }
 
+    .testmonials .testmonials__title {
+
+        color: #252B42;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 400;
+        margin-bottom: 80px;
+        margin-top: 100px;
+
+        /* 114.583% */
+        letter-spacing: 0.2px;
+
+        width: 281px;
+        max-width: 100%;
+        height: 55px;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+
+    .testmonials .testmonials__subtitle {
+
+        color: #374754;
+        text-align: center;
+        width: 280px;
+        height: 51px;
+        max-width: 100%;
+        margin-top: 45px;
+        margin-bottom: 45px;
+        font-size: 13.526px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 16.907px;
+        /* 125% */
+        letter-spacing: 0.169px;
+
+    }
+
+    .criador__button {
+
+        width: 276px;
+        height: 60px;
+        display: flex;
+        padding: 16px 47px;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 35px;
+        background-color: #2091F9;
+        color: #ffffff;
+        text-decoration: none;
+        font-size: 20px;
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 50px;
+        margin-top: 50px;
+
+    }
+
+    /* pricing */
+
+    .pricing {
+
+        background-color: #252B42;
+        width: 418px;
+        max-width: 100%;
+        /*
+        height: 1155px;*/
+        padding-top: 100px;
+        padding-bottom: 100px;
+        margin-bottom: 150px;
+
+
+
+    }
+
+    .pricing .pricing__subtitle {
+
+
+
+        display: none;
+    }
+
+    .pricing .pricing__subtitle__responsividade {
+        display: block;
+
+        width: 285px;
+        height: 100px;
+        max-width: 100%;
+        text-align: center;
+        color: #FFF;
+        font-size: 28px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        margin: auto;
+        padding: 10px;
+        margin-top: 27px;
+        margin-bottom: 80px;
+        line-height: 40px;
+        
+  
+    }
+
+    .pricing .pricing__planos {
+
+        gap: 80px;
+        justify-content: center;
+        margin: 0 auto;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* contato*/
+      
+      .contact {
+
+        display: flex;
+        width: 1440px;
+        max-width: 100%;
+        padding: 52px 0px;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        background-color: #FFFFFF;
+        margin-bottom: 50px;
+      
+      }
 
 
 
