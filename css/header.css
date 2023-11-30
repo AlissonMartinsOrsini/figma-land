@@ -32,11 +32,14 @@
     margin-bottom: 20px;
 
 }
-.cabecalho .group__subtitle{
+.cabecalho .cabecalho__group .group__subtitle{
     color: #ffffff;
     font-size: 28px;
     margin-bottom: 70px;
 
+}
+.cabecalho .group__subtitle__responsividade{
+    display: none;
 }
 
 .cabecalho .group__button{

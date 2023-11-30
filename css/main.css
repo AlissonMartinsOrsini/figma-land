@@ -270,6 +270,9 @@
   display: inline-block;
 
 }
+.newsletter .newsletter__second-box .second-box__responsividade{
+  display: none;
+}
 
 .newsletter__second-box .second-box__left {
 
