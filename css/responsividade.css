@@ -22,6 +22,7 @@
         max-width: 100%;
         padding: 17px;
         display: flex;
+        flex-direction: row-reverse;
 
     }
 
@@ -50,7 +51,8 @@
         max-width: 100%;
         padding: 10px;
         display: flex;
-        align-items: flex-start;
+        margin-left: 0;
+            
     }
 
     .menu .group__links {
