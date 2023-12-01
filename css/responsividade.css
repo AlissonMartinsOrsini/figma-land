@@ -3,7 +3,7 @@
 
     /* NAV */
     .menu {
-        width: 418px;
+        width: 100vh;
         height: 112px;
         max-width: 100%;
         display: flex;
@@ -17,7 +17,7 @@
     }
 
     .menu .menu__group {
-        width: 418px;
+        width: 90vh;
         height: 112px;
         max-width: 100%;
         padding: 17px;
@@ -303,6 +303,7 @@
         display: flex;
         flex-direction: column;
         margin-top: 0px;
+        margin: auto;
 
     }
 
@@ -707,6 +708,8 @@
         padding-top: 100px;
         padding-bottom: 100px;
         margin-bottom: 150px;
+        margin: auto;
+
 
 
 
@@ -865,6 +868,7 @@
         height: 208px;
         margin: 0 auto;
         margin-bottom: 50px;
+        align-items: baseline;
 
 
 
@@ -875,10 +879,98 @@
         width: 349px;
         max-width: 100%;
         height: 66px;
+        display: flex;
         align-items: start;
-        margin-right: 15px;
+        padding: 10px;
+
     }
 
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__point .point__endereco {
+
+        width: 293px;
+        max-width: 100%;
+        height: 46px;
+        display: flex;
+        color: #374754;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        flex-direction: column;
+        margin-bottom: 10px;
+
+
+    }
+
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__ctt {
+
+        width: 168px;
+        display: flex;
+        max-width: 100%;
+        height: 43px;
+
+
+
+    }
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__ctt .ctt__ctt {
+
+        width: 21px;
+        height: 34px;
+        max-width: 100%;
+        display: flex;
+
+    }
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__ctt .ctt__numero {
+
+        color: #374754;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        margin-left: -5px;
+
+    }
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__email {
+
+        width: 282px;
+        height: 43px;
+        max-width: 100%;
+        display: flex;
+        padding: 10px;
+
+
+    }
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__email .email__email {
+
+
+        width: 232px;
+        height: 23px;
+        max-width: 100%;
+        color: #374754;
+        text-align: left;
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: 0.1px;
+        margin-left: 15px;
+    }
+
+
+    .contact .contact__box .box_rigth-box .rigth-box__icons .icons__email .email__img {
+
+        width: 27px;
+        height: 22px;
+        max-width: 100%;
+        display: flex;
+        margin: auto;
+        margin-bottom: 20px;
+
+
+    }
 
     .contact .contact__box .box_rigth-box .rigth-box__maps .maps__mapa {
 
@@ -947,9 +1039,9 @@
 
     .contact .contact__box .box__left-box .left-box__form .form__message {
 
-        width: 240px;
+        width: 350px;
         max-width: 100%;
-        height: 157px;
+        height: 193px;
         display: flex;
         flex-direction: column;
         text-align: start;
@@ -962,6 +1054,7 @@
         color: #18171D;
         font-size: 15px;
         font-weight: 400;
+
     }
 
 
@@ -989,4 +1082,58 @@
         margin: auto;
 
     }
+
+    .rodape .rodape__conteudo .conteudo__conteudo .conteudo__pages {
+
+        width: 170px;
+        max-width: 100%;
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: auto;
+        align-items: center;
+
+
+    }
+    .rodape .rodape__conteudo .conteudo__conteudo .conteudo__tomothy {
+
+        width: 170px;
+        max-width: 100%;
+        height: 267px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        margin: auto;
+        align-items: center;
+    
+    
+    }
+    .rodape .rodape__conteudo .conteudo__conteudo .conteudo__tomothy h1 {
+
+        width: 60px;
+        max-width: 100%;
+        height: 28px;
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 700;
+        letter-spacing: 0.1px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        margin-left: -10px;
+    }
+    .rodape .rodape__conteudo .conteudo__conteudo .conteudo__tomothy h2 {
+
+        
+        max-width: 100%;
+        height: 28px;
+        color: #FFF;
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: 0.2px;
+        margin-left: 20px;
+    
+    }
+
+
 }
